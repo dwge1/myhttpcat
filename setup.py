@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='myhttpcat',
-    version='0.2',
+    version='0.4',
     packages=find_packages(),
     install_requires=[
         # 任何依赖项都在这里列出
@@ -14,6 +14,12 @@ setup(
     license='MIT',
     keywords='myhttpcat',
     url='https://github.com/dwge1/myhttpcat',
-    download_url='https://github.com/dwge1/myhttpcat'
+    project_urls={
+        'Source':'https://github.com/dwge1/myhttpcat',
+    },
+    repository={
+        "type": "git",
+        "url": "https://github.com/dwge1/myhttpcat"
+    }
 )
 
