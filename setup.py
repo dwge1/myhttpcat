@@ -13,6 +13,7 @@ setup(
     description='myhttpcat',
     license='MIT',
     keywords='myhttpcat',
-    url='https://github.com/dwge1/myhttpcat'
+    url='https://github.com/dwge1/myhttpcat',
+    download_url='https://github.com/dwge1/myhttpcat'
 )
 
